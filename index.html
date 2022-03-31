@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+<!--Link game.js and player.js-->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+<!--Add database config here below-->
+<script>
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyC6TyKFOmwBJgzwcIz06Y79UrmuOCWpQfw",
+  authDomain: "fruit-bakset.firebaseapp.com",
+  databaseURL: "https://fruit-bakset-default-rtdb.firebaseio.com",
+  projectId: "fruit-bakset",
+  storageBucket: "fruit-bakset.appspot.com",
+  messagingSenderId: "770468758056",
+  appId: "1:770468758056:web:fe69d2d13590e7599e6b1d"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+</script>
+<!-- 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8"> -->
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+
+
+</body></html>
